@@ -40,7 +40,7 @@ RUN pip install \
 # 复制应用代码
 COPY web_service.py .
 COPY ocr_ui_modern.html .
-
+COPY ./static /app/static
 # 暴露端口
 EXPOSE 8001
 
